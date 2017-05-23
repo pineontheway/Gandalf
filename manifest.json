@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Gandalf - I am here to help Frodo",
+  "description": "Used to copy URL to your clipboard and provides an option to mail URL",
+  "version": "0.1",
+
+  "browser_action": {
+   "default_icon": "Gandalf.png",
+   "default_popup": "main.html"
+  },
+
+  "permissions": [
+   "activeTab",
+   "tabs"
+   ]
+}
